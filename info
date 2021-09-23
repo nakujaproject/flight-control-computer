@@ -1,0 +1,248 @@
+{
+  "uuid": "f56ca81981fa1697331bde3d22f43fae",
+  "path": "Offline/Flight%20control%20computer",
+  "name": "Flight control computer",
+  "content": "",
+  "created_at": "2021-09-09 19:17:02",
+  "updated_at": "2021-09-23 23:08:59",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "86a0e1fda49f36d24eda62b72861c6db",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "d0f38d31dc449ca4b7e7cc32178d25cd",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "82f04e1a26734d24ab065ae0b5aaed5f": 1,
+        "245526444bbe85b260f4b99a6aa28864": 1,
+        "6aed8d590c4e40fbb14c8ce120dbe52b": 4,
+        "736876f24b5b418d94baa3b17df427eb": 1,
+        "269d82dd1f2a4b2c944c1797ef62b603": 1,
+        "9671c039d2b14ede922a1ee000bcc452": 1,
+        "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc": 1,
+        "9a1dab2264ee9c0dd27f0d885a0978e6": 2,
+        "cc02842d85cf4b0b856857ce646c5b78": 1,
+        "21b019389fd84119881c7a546c5f6ec4": 2,
+        "d6758ef6260eed65672759043729db02": 1,
+        "3d240747a85043e08408d9845ebe7995": 1,
+        "b3c95761c0494918b59378f0fb3c5d55": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          4,
+          "C0402",
+          "C1,C2,C3,C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C307416",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL05A106MQ8NUB8",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0603B104K250",
+            "BOM_Supplier Part": "C83054",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "cc02842d85cf4b0b856857ce646c5b78"
+          }
+        ],
+        [
+          "TF-01A",
+          1,
+          "TF-SMD_TF-01A",
+          "CARD1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HRO",
+            "BOM_Manufacturer Part": "TF-01A",
+            "BOM_Supplier Part": "C91145",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a08f47f425f4bad84311d285e13676f",
+            "uuid": "3d240747a85043e08408d9845ebe7995"
+          }
+        ],
+        [
+          "X9556WRS-02-9TV01",
+          1,
+          "CONN-SMD_X9556WRS-02-9TV01",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C692411",
+            "BOM_Manufacturer": "XKB Connectivity(中国星坤)",
+            "BOM_Manufacturer Part": "X9556WRS-02-9TV01",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a9ba79d49fad4f338f982bc805ba3e5b",
+            "uuid": "82f04e1a26734d24ab065ae0b5aaed5f"
+          }
+        ],
+        [
+          "18-225/B6R6C-C01/3T",
+          1,
+          "LED-SMD_4P-L1.6-W0.8-BR-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282127",
+            "BOM_Manufacturer": "Everlight Elec",
+            "BOM_Manufacturer Part": "18-225/B6R6C-C01/3T",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f6b6a47d97104a23bfbc2a398fa6f10d",
+            "uuid": "b3c95761c0494918b59378f0fb3c5d55"
+          }
+        ],
+        [
+          "BC817-40",
+          2,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Hottech",
+            "BOM_Manufacturer Part": "BC817-40",
+            "BOM_Supplier Part": "C181151",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "21b019389fd84119881c7a546c5f6ec4"
+          }
+        ],
+        [
+          "5.1K",
+          2,
+          "R0402",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF5101TCE",
+            "BOM_Supplier Part": "C25905",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "9a1dab2264ee9c0dd27f0d885a0978e6"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R0402",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGJ0103TCE",
+            "BOM_Supplier Part": "C25531",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "d6758ef6260eed65672759043729db02"
+          }
+        ],
+        [
+          "AMS1117-5.0",
+          1,
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-5.0",
+            "BOM_Supplier Part": "C6187",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "245526444bbe85b260f4b99a6aa28864"
+          }
+        ],
+        [
+          "AMS1117-3.3_C347222",
+          1,
+          "SOT-223_L6.7-W3.5-P2.30-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C347222",
+            "BOM_Manufacturer": "Youtai Semiconductor Co., Ltd.",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f5473c5ed40c49bba18f84eff437614e",
+            "uuid": "736876f24b5b418d94baa3b17df427eb"
+          }
+        ],
+        [
+          "ESP32-WROOM-32D(16MB)",
+          1,
+          "WIFIM-SMD_39P-L25.5-W18.0-P1.27-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C529578",
+            "BOM_Manufacturer": "Espressif Systems",
+            "BOM_Manufacturer Part": "ESP32-WROOM-32D(16MB)",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e6052af1dfb44e85bf3d28af7b8ab9ab",
+            "uuid": "269d82dd1f2a4b2c944c1797ef62b603"
+          }
+        ],
+        [
+          "CH340C",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WCH",
+            "BOM_Manufacturer Part": "CH340C",
+            "BOM_Supplier Part": "C84681",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
+          }
+        ],
+        [
+          "TYPE-C-31-M-09",
+          1,
+          "USB-C-SMD_TYPE-C-31-M-09",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2689967",
+            "BOM_Manufacturer": "韩国韩荣",
+            "BOM_Manufacturer Part": "TYPE-C-31-M-09",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "53f27eb00c18474e8fde1c76707daaec",
+            "uuid": "9671c039d2b14ede922a1ee000bcc452"
+          }
+        ]
+      ],
+      "updateTime": 1632427739,
+      "createTime": 1631204235,
+      "histories": [],
+      "created_at": "2021-09-09 19:17:15",
+      "updated_at": "2021-09-23 23:08:59"
+    }
+  ],
+  "sort": [],
+  "title": "Flight control computer",
+  "foldername": "Flight control computer",
+  "schfilename": "Flight control computer.json",
+  "schfilemtime": 1632427739149
+}
