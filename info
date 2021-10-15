@@ -1,23 +1,23 @@
 {
-  "uuid": "f56ca81981fa1697331bde3d22f43fae",
-  "path": "Offline/Flight%20control%20computer",
-  "name": "Flight control computer",
+  "uuid": "7f512e05889b50e01dedcc4b5540f91a",
+  "path": "Offline/Flight%20control%20computer2",
+  "name": "Flight control computer2",
   "content": "",
-  "created_at": "2021-09-09 19:17:02",
-  "updated_at": "2021-09-23 23:08:59",
+  "created_at": "2021-10-15 05:04:54",
+  "updated_at": "2021-10-15 05:33:43",
   "stick": "",
   "documents": [
     {
-      "uuid": "86a0e1fda49f36d24eda62b72861c6db",
+      "uuid": "5bebc3b06f3a443474c2c147797dc884",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "d0f38d31dc449ca4b7e7cc32178d25cd",
+      "master": "d06e1c6f81d1e67a45f13c3baccb752a",
       "thumb": "/images/thumb-default.png",
       "components": {
         "82f04e1a26734d24ab065ae0b5aaed5f": 1,
         "245526444bbe85b260f4b99a6aa28864": 1,
-        "6aed8d590c4e40fbb14c8ce120dbe52b": 4,
+        "6aed8d590c4e40fbb14c8ce120dbe52b": 6,
         "736876f24b5b418d94baa3b17df427eb": 1,
         "269d82dd1f2a4b2c944c1797ef62b603": 1,
         "9671c039d2b14ede922a1ee000bcc452": 1,
@@ -25,9 +25,10 @@
         "9a1dab2264ee9c0dd27f0d885a0978e6": 2,
         "cc02842d85cf4b0b856857ce646c5b78": 1,
         "21b019389fd84119881c7a546c5f6ec4": 2,
-        "d6758ef6260eed65672759043729db02": 1,
+        "d6758ef6260eed65672759043729db02": 3,
         "3d240747a85043e08408d9845ebe7995": 1,
-        "b3c95761c0494918b59378f0fb3c5d55": 1
+        "b3c95761c0494918b59378f0fb3c5d55": 1,
+        "aec2910a9ad34f29b8e38ed5ef148fe7": 2
       },
       "BOM": [
         [
@@ -39,9 +40,9 @@
         ],
         [
           "10uF",
-          4,
+          6,
           "C0402",
-          "C1,C2,C3,C4",
+          "C1,C2,C3,C4,C10,C11",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C307416",
@@ -144,9 +145,9 @@
         ],
         [
           "10K",
-          1,
+          3,
           "R0402",
-          "R3",
+          "R3,R6,R7",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -155,6 +156,21 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "fafd024f554e426eb74cf4a204aa88b0",
             "uuid": "d6758ef6260eed65672759043729db02"
+          }
+        ],
+        [
+          "1TS003B-1800-3500A",
+          2,
+          "SW-SMD_1TS003B-XXXX-3500A-CT",
+          "SW1,SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C255809",
+            "BOM_Manufacturer": "HYP",
+            "BOM_Manufacturer Part": "1TS003B-1800-3500A",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e55a062d79b04303ae20d291dd9f7f9e",
+            "uuid": "aec2910a9ad34f29b8e38ed5ef148fe7"
           }
         ],
         [
@@ -231,18 +247,410 @@
             "puuid": "53f27eb00c18474e8fde1c76707daaec",
             "uuid": "9671c039d2b14ede922a1ee000bcc452"
           }
+        ],
+        [
+          "100nF",
+          2,
+          "C0603",
+          "C6,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
+            "BOM_Supplier Part": "C14663",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "154b66255b01a09bf1c88bb1ea89be78"
+          }
+        ],
+        [
+          "2.2nF",
+          1,
+          "C0603",
+          "C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B222K500NT",
+            "BOM_Supplier Part": "C1604",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "c1b8023c39f9ae4feab1b505913b8c7d"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "4.7K",
+          2,
+          "R0603",
+          "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF4701T5E",
+            "BOM_Supplier Part": "C23162",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "0e9af40e10eb0954509ee99672d67d03"
+          }
+        ],
+        [
+          "MPU-6050_C24112",
+          1,
+          "QFN-24_L4.0-W4.0-P0.50-BL-MPU-6050",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "InvenSense",
+            "BOM_Manufacturer Part": "MPU-6050",
+            "BOM_Supplier Part": "C24112",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "330cc923c2624e59a093f2f473f629f9",
+            "uuid": "a571133e57b33f8fdf2317261143470d"
+          }
         ]
       ],
-      "updateTime": 1632427739,
-      "createTime": 1631204235,
+      "updateTime": 1634265223,
+      "createTime": 1634263494,
       "histories": [],
-      "created_at": "2021-09-09 19:17:15",
-      "updated_at": "2021-09-23 23:08:59"
+      "created_at": "2021-10-15 05:04:54",
+      "updated_at": "2021-10-15 05:33:43"
+    },
+    {
+      "uuid": "91de7d5475366a3ef5afd6259cdac828",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a571133e57b33f8fdf2317261143470d": 1,
+        "154b66255b01a09bf1c88bb1ea89be78": 2,
+        "c1b8023c39f9ae4feab1b505913b8c7d": 1,
+        "3d033fcb6d334c25b65a754834cf5aaf": 1,
+        "0e9af40e10eb0954509ee99672d67d03": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          6,
+          "C0402",
+          "C1,C2,C3,C4,C10,C11",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C307416",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL05A106MQ8NUB8",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "6aed8d590c4e40fbb14c8ce120dbe52b"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WTC",
+            "BOM_Manufacturer Part": "0603B104K250",
+            "BOM_Supplier Part": "C83054",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "cc02842d85cf4b0b856857ce646c5b78"
+          }
+        ],
+        [
+          "TF-01A",
+          1,
+          "TF-SMD_TF-01A",
+          "CARD1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "HRO",
+            "BOM_Manufacturer Part": "TF-01A",
+            "BOM_Supplier Part": "C91145",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9a08f47f425f4bad84311d285e13676f",
+            "uuid": "3d240747a85043e08408d9845ebe7995"
+          }
+        ],
+        [
+          "X9556WRS-02-9TV01",
+          1,
+          "CONN-SMD_X9556WRS-02-9TV01",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C692411",
+            "BOM_Manufacturer": "XKB Connectivity(中国星坤)",
+            "BOM_Manufacturer Part": "X9556WRS-02-9TV01",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a9ba79d49fad4f338f982bc805ba3e5b",
+            "uuid": "82f04e1a26734d24ab065ae0b5aaed5f"
+          }
+        ],
+        [
+          "18-225/B6R6C-C01/3T",
+          1,
+          "LED-SMD_4P-L1.6-W0.8-BR-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C282127",
+            "BOM_Manufacturer": "Everlight Elec",
+            "BOM_Manufacturer Part": "18-225/B6R6C-C01/3T",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f6b6a47d97104a23bfbc2a398fa6f10d",
+            "uuid": "b3c95761c0494918b59378f0fb3c5d55"
+          }
+        ],
+        [
+          "BC817-40",
+          2,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Hottech",
+            "BOM_Manufacturer Part": "BC817-40",
+            "BOM_Supplier Part": "C181151",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "21b019389fd84119881c7a546c5f6ec4"
+          }
+        ],
+        [
+          "5.1K",
+          2,
+          "R0402",
+          "R1,R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGF5101TCE",
+            "BOM_Supplier Part": "C25905",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "9a1dab2264ee9c0dd27f0d885a0978e6"
+          }
+        ],
+        [
+          "10K",
+          3,
+          "R0402",
+          "R3,R6,R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0402WGJ0103TCE",
+            "BOM_Supplier Part": "C25531",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "d6758ef6260eed65672759043729db02"
+          }
+        ],
+        [
+          "1TS003B-1800-3500A",
+          2,
+          "SW-SMD_1TS003B-XXXX-3500A-CT",
+          "SW1,SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C255809",
+            "BOM_Manufacturer": "HYP",
+            "BOM_Manufacturer Part": "1TS003B-1800-3500A",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e55a062d79b04303ae20d291dd9f7f9e",
+            "uuid": "aec2910a9ad34f29b8e38ed5ef148fe7"
+          }
+        ],
+        [
+          "AMS1117-5.0",
+          1,
+          "SOT-223_L6.5-W3.5-P2.30-LS7.0-BR",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-5.0",
+            "BOM_Supplier Part": "C6187",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "4ca399a3887148eeab92cd3a98a855b3",
+            "uuid": "245526444bbe85b260f4b99a6aa28864"
+          }
+        ],
+        [
+          "AMS1117-3.3_C347222",
+          1,
+          "SOT-223_L6.7-W3.5-P2.30-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C347222",
+            "BOM_Manufacturer": "Youtai Semiconductor Co., Ltd.",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f5473c5ed40c49bba18f84eff437614e",
+            "uuid": "736876f24b5b418d94baa3b17df427eb"
+          }
+        ],
+        [
+          "ESP32-WROOM-32D(16MB)",
+          1,
+          "WIFIM-SMD_39P-L25.5-W18.0-P1.27-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C529578",
+            "BOM_Manufacturer": "Espressif Systems",
+            "BOM_Manufacturer Part": "ESP32-WROOM-32D(16MB)",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e6052af1dfb44e85bf3d28af7b8ab9ab",
+            "uuid": "269d82dd1f2a4b2c944c1797ef62b603"
+          }
+        ],
+        [
+          "CH340C",
+          1,
+          "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "WCH",
+            "BOM_Manufacturer Part": "CH340C",
+            "BOM_Supplier Part": "C84681",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "bf1b7b0953d842979fbb5acfa9df7d18",
+            "uuid": "8b8f2c4b0f1a4c05b9bf99dce6e3b5cc"
+          }
+        ],
+        [
+          "TYPE-C-31-M-09",
+          1,
+          "USB-C-SMD_TYPE-C-31-M-09",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2689967",
+            "BOM_Manufacturer": "韩国韩荣",
+            "BOM_Manufacturer Part": "TYPE-C-31-M-09",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "53f27eb00c18474e8fde1c76707daaec",
+            "uuid": "9671c039d2b14ede922a1ee000bcc452"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0603",
+          "C6,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "CC0603KRX7R9BB104",
+            "BOM_Supplier Part": "C14663",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "154b66255b01a09bf1c88bb1ea89be78"
+          }
+        ],
+        [
+          "2.2nF",
+          1,
+          "C0603",
+          "C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "0603B222K500NT",
+            "BOM_Supplier Part": "C1604",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "c1b8023c39f9ae4feab1b505913b8c7d"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Manufacturer Part": "CL10A106KP8NNNC",
+            "BOM_Supplier Part": "C19702",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "3d033fcb6d334c25b65a754834cf5aaf"
+          }
+        ],
+        [
+          "4.7K",
+          2,
+          "R0603",
+          "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF4701T5E",
+            "BOM_Supplier Part": "C23162",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "0e9af40e10eb0954509ee99672d67d03"
+          }
+        ],
+        [
+          "MPU-6050_C24112",
+          1,
+          "QFN-24_L4.0-W4.0-P0.50-BL-MPU-6050",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "InvenSense",
+            "BOM_Manufacturer Part": "MPU-6050",
+            "BOM_Supplier Part": "C24112",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "330cc923c2624e59a093f2f473f629f9",
+            "uuid": "a571133e57b33f8fdf2317261143470d"
+          }
+        ]
+      ],
+      "updateTime": 1634263495,
+      "createTime": 1634263495,
+      "histories": [],
+      "created_at": "2021-10-15 05:04:55",
+      "updated_at": "2021-10-15 05:04:55"
     }
   ],
-  "sort": [],
-  "title": "Flight control computer",
-  "foldername": "Flight control computer",
-  "schfilename": "Flight control computer.json",
-  "schfilemtime": 1632427739149
+  "sort": [
+    "5bebc3b06f3a443474c2c147797dc884",
+    "91de7d5475366a3ef5afd6259cdac828"
+  ],
+  "title": "Flight control computer2",
+  "foldername": "Flight control computer2",
+  "schfilename": "Flight control computer2.json",
+  "schfilemtime": 1634265223987
 }
