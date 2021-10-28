@@ -1,2 +1,2 @@
 ## PCB 3D View
-![](3dView.JPG)
+![](3dView.jpg)
