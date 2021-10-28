@@ -1,18 +1,18 @@
 {
-  "uuid": "7f512e05889b50e01dedcc4b5540f91a",
-  "path": "Offline/Flight%20control%20computer2",
-  "name": "Flight control computer2",
+  "uuid": "f6debd038459f8778aaddf74a33f8e46",
+  "path": "Offline/Flight%20control%20computer3",
+  "name": "Flight control computer3",
   "content": "",
-  "created_at": "2021-10-15 05:04:54",
-  "updated_at": "2021-10-15 05:33:43",
+  "created_at": "2021-10-28 22:27:14",
+  "updated_at": "2021-10-28 22:32:18",
   "stick": "",
   "documents": [
     {
-      "uuid": "5bebc3b06f3a443474c2c147797dc884",
+      "uuid": "66da8e5ffb886a2aa02e317eeb099a8a",
       "title": "Sheet_1",
       "description": "",
       "docType": "1",
-      "master": "d06e1c6f81d1e67a45f13c3baccb752a",
+      "master": "000a8b14b6233a8cbcdc829444df9551",
       "thumb": "/images/thumb-default.png",
       "components": {
         "82f04e1a26734d24ab065ae0b5aaed5f": 1,
@@ -28,7 +28,8 @@
         "d6758ef6260eed65672759043729db02": 3,
         "3d240747a85043e08408d9845ebe7995": 1,
         "b3c95761c0494918b59378f0fb3c5d55": 1,
-        "aec2910a9ad34f29b8e38ed5ef148fe7": 2
+        "aec2910a9ad34f29b8e38ed5ef148fe7": 2,
+        "76d1280f2be942b4a7894b917959b68f": 2
       },
       "BOM": [
         [
@@ -96,6 +97,21 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "a9ba79d49fad4f338f982bc805ba3e5b",
             "uuid": "82f04e1a26734d24ab065ae0b5aaed5f"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x5",
+          2,
+          "HDR-TH_5P-P2.54-V-F",
+          "H1,H2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 1*5p Female header",
+            "BOM_Supplier Part": "C50950",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5c779b2d00a94a63898d3dd94d7b7ab9",
+            "uuid": "76d1280f2be942b4a7894b917959b68f"
           }
         ],
         [
@@ -249,6 +265,21 @@
           }
         ],
         [
+          "HNB09A03",
+          1,
+          "BUZ-TH_BD9.0-P5.00-D0.6-FD",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C96102",
+            "BOM_Manufacturer": "Jiangsu Huaneng Elec",
+            "BOM_Manufacturer Part": "HNB09A03",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "23f7eb9b16cf4e9e93b10e2625e88f4b",
+            "uuid": "51d438f802ac46ca9c18fc856352ceb0"
+          }
+        ],
+        [
           "100nF",
           2,
           "C0603",
@@ -294,10 +325,84 @@
           }
         ],
         [
+          "100nF",
+          2,
+          "C0402",
+          "C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C307331",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL05B104KB54PNC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "90d0ec3862a946bb9c074e514ae2d050"
+          }
+        ],
+        [
+          "WS2812B-MINI",
+          2,
+          "LED-SMD_4P-L3.5-W3.5-TL_WS2812B",
+          "LED2,LED3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C527089",
+            "BOM_Manufacturer": "Worldsemi",
+            "BOM_Manufacturer Part": "WS2812B-Mini",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "226176c6090a408f97941d6918aaf715",
+            "uuid": "902f4cd0c5304519a675be2ee076e142"
+          }
+        ],
+        [
+          "Header Female 2.54mm 1x3",
+          5,
+          "HEADER FEMALE 2.54MM 3X1",
+          "P1,P2,P3,P4,P5",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Boom Precision Elec",
+            "BOM_Manufacturer Part": "Header-Female-2.54_1x3",
+            "puuid": "da5bd7ca43b3405887deac2f4fa5fd25",
+            "uuid": "c7fcbcf0a6fa4c8e96ee69af8871b437"
+          }
+        ],
+        [
+          "BSS138P,215",
+          5,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q3,Q4,Q5,Q6,Q7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "BSS138P,215",
+            "BOM_Supplier Part": "C75547",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "25b0fc8c36614b32a59d8bf23ba7deb7"
+          }
+        ],
+        [
           "4.7K",
           2,
           "R0603",
           "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF4701T5E",
+            "BOM_Supplier Part": "C23162",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "0e9af40e10eb0954509ee99672d67d03"
+          }
+        ],
+        [
+          "10K",
+          10,
+          "R0603",
+          "R8,R9,R10,R11,R12,R13,R14,R15,R16,R17",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -324,14 +429,14 @@
           }
         ]
       ],
-      "updateTime": 1634265223,
-      "createTime": 1634263494,
+      "updateTime": 1635449538,
+      "createTime": 1635449234,
       "histories": [],
-      "created_at": "2021-10-15 05:04:54",
-      "updated_at": "2021-10-15 05:33:43"
+      "created_at": "2021-10-28 22:27:14",
+      "updated_at": "2021-10-28 22:32:18"
     },
     {
-      "uuid": "91de7d5475366a3ef5afd6259cdac828",
+      "uuid": "f36b3872b2d76d006ea1f17961b8a613",
       "title": "Sheet_2",
       "description": "",
       "docType": "1",
@@ -342,7 +447,12 @@
         "154b66255b01a09bf1c88bb1ea89be78": 2,
         "c1b8023c39f9ae4feab1b505913b8c7d": 1,
         "3d033fcb6d334c25b65a754834cf5aaf": 1,
-        "0e9af40e10eb0954509ee99672d67d03": 2
+        "0e9af40e10eb0954509ee99672d67d03": 12,
+        "25b0fc8c36614b32a59d8bf23ba7deb7": 5,
+        "c7fcbcf0a6fa4c8e96ee69af8871b437": 5,
+        "90d0ec3862a946bb9c074e514ae2d050": 2,
+        "902f4cd0c5304519a675be2ee076e142": 2,
+        "51d438f802ac46ca9c18fc856352ceb0": 1
       },
       "BOM": [
         [
@@ -410,6 +520,21 @@
             "BOM_JLCPCB Part Class": "Extended Part",
             "puuid": "a9ba79d49fad4f338f982bc805ba3e5b",
             "uuid": "82f04e1a26734d24ab065ae0b5aaed5f"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x5",
+          2,
+          "HDR-TH_5P-P2.54-V-F",
+          "H1,H2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 1*5p Female header",
+            "BOM_Supplier Part": "C50950",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5c779b2d00a94a63898d3dd94d7b7ab9",
+            "uuid": "76d1280f2be942b4a7894b917959b68f"
           }
         ],
         [
@@ -563,6 +688,21 @@
           }
         ],
         [
+          "HNB09A03",
+          1,
+          "BUZ-TH_BD9.0-P5.00-D0.6-FD",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C96102",
+            "BOM_Manufacturer": "Jiangsu Huaneng Elec",
+            "BOM_Manufacturer Part": "HNB09A03",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "23f7eb9b16cf4e9e93b10e2625e88f4b",
+            "uuid": "51d438f802ac46ca9c18fc856352ceb0"
+          }
+        ],
+        [
           "100nF",
           2,
           "C0603",
@@ -608,10 +748,84 @@
           }
         ],
         [
+          "100nF",
+          2,
+          "C0402",
+          "C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C307331",
+            "BOM_Manufacturer": "Samsung Electro-Mechanics",
+            "BOM_Manufacturer Part": "CL05B104KB54PNC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "90d0ec3862a946bb9c074e514ae2d050"
+          }
+        ],
+        [
+          "WS2812B-MINI",
+          2,
+          "LED-SMD_4P-L3.5-W3.5-TL_WS2812B",
+          "LED2,LED3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C527089",
+            "BOM_Manufacturer": "Worldsemi",
+            "BOM_Manufacturer Part": "WS2812B-Mini",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "226176c6090a408f97941d6918aaf715",
+            "uuid": "902f4cd0c5304519a675be2ee076e142"
+          }
+        ],
+        [
+          "Header Female 2.54mm 1x3",
+          5,
+          "HEADER FEMALE 2.54MM 3X1",
+          "P1,P2,P3,P4,P5",
+          {
+            "BOM_Supplier Part": "C146243",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Boom Precision Elec",
+            "BOM_Manufacturer Part": "Header-Female-2.54_1x3",
+            "puuid": "da5bd7ca43b3405887deac2f4fa5fd25",
+            "uuid": "c7fcbcf0a6fa4c8e96ee69af8871b437"
+          }
+        ],
+        [
+          "BSS138P,215",
+          5,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q3,Q4,Q5,Q6,Q7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "BSS138P,215",
+            "BOM_Supplier Part": "C75547",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "25b0fc8c36614b32a59d8bf23ba7deb7"
+          }
+        ],
+        [
           "4.7K",
           2,
           "R0603",
           "R4,R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0603WAF4701T5E",
+            "BOM_Supplier Part": "C23162",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "0e9af40e10eb0954509ee99672d67d03"
+          }
+        ],
+        [
+          "10K",
+          10,
+          "R0603",
+          "R8,R9,R10,R11,R12,R13,R14,R15,R16,R17",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Manufacturer": "UniOhm",
@@ -638,19 +852,19 @@
           }
         ]
       ],
-      "updateTime": 1634263495,
-      "createTime": 1634263495,
+      "updateTime": 1635449235,
+      "createTime": 1635449235,
       "histories": [],
-      "created_at": "2021-10-15 05:04:55",
-      "updated_at": "2021-10-15 05:04:55"
+      "created_at": "2021-10-28 22:27:15",
+      "updated_at": "2021-10-28 22:27:15"
     }
   ],
   "sort": [
-    "5bebc3b06f3a443474c2c147797dc884",
-    "91de7d5475366a3ef5afd6259cdac828"
+    "66da8e5ffb886a2aa02e317eeb099a8a",
+    "f36b3872b2d76d006ea1f17961b8a613"
   ],
-  "title": "Flight control computer2",
-  "foldername": "Flight control computer2",
-  "schfilename": "Flight control computer2.json",
-  "schfilemtime": 1634265223987
+  "title": "Flight control computer3",
+  "foldername": "Flight control computer3",
+  "schfilename": "Flight control computer3.json",
+  "schfilemtime": 1635449538121
 }
