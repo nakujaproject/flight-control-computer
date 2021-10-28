@@ -1,2 +1,2 @@
 ## PCB 3D View
-![](3dView.jpg)
+![](https://raw.githubusercontent.com/nakujaproject/flight-control-computer/main/3dview.JPG)
